@@ -29,7 +29,7 @@ body
     background-color: var(--card-color);
 
     height: 490px;
-    width: 330px;
+    max-width: 330px;
     padding: 20px;
     border: 1px solid var(--gray-900);
     border-radius: 20px;
@@ -37,8 +37,8 @@ body
     box-shadow: 10px 10px 0px var(--gray-900);
 
     /* To center the visual appearance of the card including the box shadow */
-    position: relative;
-    left: -5px;
+    transform: translate(-5px);
+
 }
 
 .blog-image{
@@ -113,4 +113,8 @@ body
     .blog-preview-card .blog-description{
         font-size: 14px
     }
+}
+
+time{
+    display: block;
 }
