@@ -28,8 +28,8 @@ body
 .blog-preview-card{
     background-color: var(--card-color);
 
-    height: 480px;
-    width: 350px;
+    height: 490px;
+    width: 330px;
     padding: 20px;
     border: 1px solid var(--gray-900);
     border-radius: 20px;
@@ -69,6 +69,8 @@ body
 .blog-description{
     color: var(--gray-500);
     margin-bottom: 22px;
+
+    line-height: 26px;
 }
 
 .blog-author{
@@ -90,3 +92,9 @@ body
     color: var(--bg-color);
     cursor: pointer;
 }
+
+/* @media (max-width: 376px) {
+    .blog-preview-card{
+        width: 300px;
+    }   
+} */
